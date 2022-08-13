@@ -243,21 +243,21 @@ body {
   }
 }
 
-.js-accordion dd {
+.js .js-accordion dd {
   display: none;
 }
 
-.js-accordion dt::after {
+.js .js-accordion dt::after {
   content: "⮧";
   margin-left: 10px;
 }
 
-.js-accordion dt.ativo::after {
+.js .js-accordion dt.ativo::after {
   content: "⮥";
   margin-left: 10px;
 }
 
-.js-accordion dd.ativo {
+.js .js-accordion dd.ativo {
   display: block;
   animation: slideDown 0.5s forwards;
 }
@@ -271,4 +271,15 @@ body {
     opacity: 1;
     max-height: 200px;
   }
+}
+
+.js .js-scroll {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: 0.3s;
+}
+
+.js .js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
