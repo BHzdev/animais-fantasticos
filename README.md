@@ -39,3 +39,5 @@ Para criar uma versão otimizada do projeto para deploy, execute o comando npm r
 ##Conclusão
 
 O projeto "Animais Fantásticos" é um exemplo de como o uso de módulos, constantes, funções puras e classes pode ajudar a tornar o código JavaScript mais organizado, modular e fácil de entender. O uso do Webpack também ajuda a tornar o projeto mais eficiente em termos de desempenho.
+
+Venha conhecer a página "Animais Fantásticos" e descobrir informações incríveis sobre animais fantásticos de diferentes categorias e espécies: [GitHub Pages](https://bhzdev.github.io/animais-fantasticos/)
